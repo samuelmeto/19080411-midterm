@@ -1,0 +1,54 @@
+---
+title: "Inequality in Girls' Education in Turkey"
+author: 
+  - GURGUN, Hakan[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+
+<!-- ============================== FOOTNOTES ============================== -->
+
+<!-- ======================================================================= -->
+[^1]: 19080397, [19080397](https://github.com/HknGrgn/19080397.git)
+
+# Introduction:
+
+Education is a fundamental human right that is critical for personal development, economic empowerment, and social progress. However, in many parts of the world, including Turkey, girls continue to face significant challenges in accessing and participating in quality education. Despite progress made towards gender equality in education, girls' education inequality persists, influenced by various factors such as socio-economic status, gender norms, early marriage, domestic responsibilities, and biases in education policies.
+
+## Literature Review
+
+A review of the literature reveals the multifaceted nature of girls' education inequality in Turkey. Socio-economic factors play a crucial role in shaping access to education, with girls from low-income families facing higher risks of dropout, lower enrollment rates, and limited educational opportunities.[@tomul2008relative] Gender norms and societal expectations also contribute to girls' education inequality, as traditional roles and responsibilities often prioritize boys' education over girls', leading to disparities in educational attainment.[@ozaydinlik2014toplumsal]
+
+Early marriage, prevalent in some regions of Turkey, further exacerbates girls' education inequality, as it often results in early school dropout and limited educational opportunities. Domestic responsibilities, including household chores and caregiving responsibilities, also disproportionately affect girls, limiting their ability to attend school regularly and engage fully in their studies.[@tor2010turkiye]
+
+Biases in education policies and practices also contribute to girls' education inequality in Turkey.[@ccoker2020girls] Discrimination, gender biases, and stereotypes can impact girls' access to educational resources, opportunities, and decision-making processes, leading to disparities in educational outcomes.
+
+\newpage
+# References {#references}
+<div id="refs"></div>
