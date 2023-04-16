@@ -1,0 +1,63 @@
+---
+title: "Working conditions of women in the workplace"
+author: 
+  - ÖZTÜRK, MERT[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: 19080411, [19080411](https://github.com/samuelmeto/19080411.git)
+
+
+
+# Introduction
+Gender inequality at work has been a persistent issue worldwide, with women facing numerous barriers and challenges in their career advancement. The impact of patriarchy, gender norms, and discrimination in the workplace has led to unequal pay, lack of promotions, and leadership opportunities for women, and gender-based harassment. Addressing gender inequality at work is not only essential for promoting social justice, but it also has significant implications for organizational productivity and performance. This literature review aims to explore four articles that shed light on gender inequality at work and the challenges that women face in the workplace.
+
+## Literature Review
+
+Gender inequality in the workplace is a persistent issue worldwide, with women facing numerous barriers and challenges in their career advancement. In Ataerkillik, Toplumsal Cinsiyet ve Kadının Çalışma Yaşamına Katılımı, the authors explore the impact of patriarchy and gender norms on women's participation in work life. The study highlights the need for greater awareness and action to address gender-based discrimination and promote gender equity in the workplace. [@cotter2004gender]
+
+In Psychosocial working conditions and exhaustion in a working population sample of Swedish middle-aged men and women, the authors examine the relationship between psychosocial working conditions and exhaustion in a sample of Swedish workers. The study emphasizes the importance of improving working conditions to support employee well-being and reduce burnout.[@lindeberg2011psychosocial]
+
+Similarly, KAMU ÖRGÜTLERİNDE ÇALIŞAN KADIN İŞGÖRENLERİN ÇALIŞMA YAŞAMLARINDA KARŞILAŞTIKLARI SORUNLAR ÜZERİNE BİR ARAŞTIRMA investigates the challenges faced by women working in public organizations in Turkey. The study identifies issues such as lack of support, discrimination, and gender stereotypes as significant barriers to women's career advancement.[@yilmaz2008kamu]
+
+Gender inequality at work remains a critical issue globally, as highlighted in the literature. Efforts to address this issue must be multi-faceted and involve addressing societal norms and attitudes, promoting workplace policies and practices that support gender equity, and addressing specific barriers faced by women in different industries and sectors.[@ozccatal2011ataerkillik]
+
+Overall, the literature suggests the need for continued research, advocacy, and action to address gender inequality in the workplace and support gender equity in all aspects of work life.
+
+
+
+**References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
+
+**_You shouldn't delete the last 3 lines. Those lines are required for References section._**
+
+\newpage
+# References {#references}
+<div id="refs"></div>
+
